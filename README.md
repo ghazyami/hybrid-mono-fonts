@@ -6,8 +6,8 @@ A collection of popular mono fonts merged with other fonts to support more langu
 ## Fonts
 - JetBrains Mono Kawkab
 - JetBrains Mono Vazir
-- FiraCode-Kawkab
-- FiraCode-Vazir
+- FiraCode Kawkab
+- FiraCode Vazir
 
 ## Source Fonts
 - [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono) - English/Latin
