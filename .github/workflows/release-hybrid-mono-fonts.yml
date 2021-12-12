@@ -16,7 +16,7 @@ jobs:
       - name: Build fonts
         run: |
           sudo apt-get -y install fontforge
-          ./make-hybrid-mono-fonts
+          ./make-hybrid-mono-fonts.sh
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
