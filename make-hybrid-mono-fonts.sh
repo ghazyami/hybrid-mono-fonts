@@ -45,7 +45,7 @@ FONT_WEIGHT="Regular"
 FONT_COPYRIGHT="$BASE_COPYRIGHT $JB_COPYRIGHT $KK_COPYRIGHT"
 
 FONT1=jb/fonts/ttf/JetBrainsMono-Regular.ttf
-FONT2=kk/KawkabMono-Regular.ttf
+FONT2=kk/kawkab-mono-$KK_VER/KawkabMono-Regular.ttf
 RESULT_FONT=JetBrains-Mono-Kawkab-Regular.ttf
 
 fontforge -lang=ff -script merge.ff "$FONT1" "$FONT2" "$FONT_NAME" "$FONT_FAMILY" "$FONT_FULLNAME" "$FONT_WEIGHT" "$FONT_COPYRIGHT" "$RESULT_FONT"
@@ -72,7 +72,7 @@ FONT_WEIGHT="Regular"
 FONT_COPYRIGHT="$BASE_COPYRIGHT $FR_COPYRIGHT $KK_COPYRIGHT"
 
 FONT1=fr/ttf/FiraCode-Regular.ttf
-FONT2=kk/KawkabMono-Regular.ttf
+FONT2=kk/kawkab-mono-$KK_VER/KawkabMono-Regular.ttf
 RESULT_FONT=FiraCode-Kawkab-Regular.ttf
 
 fontforge -lang=ff -script merge.ff "$FONT1" "$FONT2" "$FONT_NAME" "$FONT_FAMILY" "$FONT_FULLNAME" "$FONT_WEIGHT" "$FONT_COPYRIGHT" "$RESULT_FONT"
