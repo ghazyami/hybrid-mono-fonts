@@ -1,4 +1,8 @@
 Copyright (c) 2021, Ghazy Abdallah (https://github.com/aster-phoenix).
+Copyright (c) 2020, The JetBrains Mono Project Authors (https://github.com/JetBrains/JetBrainsMono).
+Copyright (c) 2014, The Fira Code Project Authors (https://github.com/tonsky/FiraCode).
+Copyright (c) 2015, Abdullah Arif (https://github.com/aiaf/kawkab-mono).
+Copyright (c) 2016, Vazir Code Font Project Authors (https://github.com/rastikerdar/vazir-code-font).
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
