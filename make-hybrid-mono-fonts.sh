@@ -10,29 +10,29 @@ BASE_COPYRIGHT="Copyright (c) 2021, Ghazy Abdallah (https://github.com/aster-pho
 JB_VER=2.242
 JB_LINK=https://github.com/JetBrains/JetBrainsMono/releases/download/v$JB_VER/JetBrainsMono-$JB_VER.zip
 JB_COPYRIGHT="Copyright 2020 The JetBrains Mono Project Authors (https://github.com/JetBrains/JetBrainsMono)."
-#wget $JB_LINK -O jb.zip
-#unzip jb.zip -d jb
+wget $JB_LINK -O jb.zip
+unzip jb.zip -d jb
 
 # Fira Code
 FR_VER=6.2
 FR_LINK=https://github.com/tonsky/FiraCode/releases/download/$FR_VER/Fira_Code_v$FR_VER.zip
 FR_COPYRIGHT="Copyright (c) 2014, The Fira Code Project Authors (https://github.com/tonsky/FiraCode)."
-#wget $FR_LINK -O fr.zip
-#unzip fr.zip -d fr
+wget $FR_LINK -O fr.zip
+unzip fr.zip -d fr
 
 # Kawkab Mono
 KK_VER=0.501
 KK_LINK=https://github.com/aiaf/kawkab-mono/releases/download/v$KK_VER/kawkab-mono-$KK_VER.zip
 KK_COPYRIGHT="Copyright 2015 Abdullah Arif (https://github.com/aiaf/kawkab-mono)."
-#wget $KK_LINK -O kk.zip
-#unzip kk.zip -d kk
+wget $KK_LINK -O kk.zip
+unzip kk.zip -d kk
 
 # Vazir Code
 VZ_VER=1.1.2
 VZ_LINK=https://github.com/rastikerdar/vazir-code-font/releases/download/v$VZ_VER/vazir-code-font-v$VZ_VER.zip
 VZ_COPYRIGHT="Vazir Code Font Project Authors (https://github.com/rastikerdar/vazir-code-font)."
-#wget $VZ_LINK -O vz.zip
-#unzip vz.zip -d vz
+wget $VZ_LINK -O vz.zip
+unzip vz.zip -d vz
 
 
 # Merge fonts
