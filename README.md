@@ -41,7 +41,7 @@ A collection of popular mono fonts merged with other fonts to support more langu
 - فيراكود فزير
 
 ## مصدر الخطوط
-- [جين برينز مونو](https://github.com/JetBrains/JetBrainsMono) - انجليزي/لاتيني
+- [جيت برينز مونو](https://github.com/JetBrains/JetBrainsMono) - انجليزي/لاتيني
 - [فيراكود](https://github.com/tonsky/FiraCode) - انجليزي/لاتيني
 - [كوكب مونو](https://github.com/aiaf/kawkab-mono) - عربي
 - [فزير كود](https://github.com/rastikerdar/vazir-code-font) - فارسي
