@@ -2,6 +2,7 @@
 
 # Base
 BASE_COPYRIGHT="Copyright (c) 2021, Ghazy Abdallah (https://github.com/aster-phoenix)."
+BASE_SCALE=1000
 
 
 # Define fonts
@@ -48,7 +49,7 @@ FONT1=jb/fonts/ttf/JetBrainsMono-Regular.ttf
 FONT2=kk/kawkab-mono-$KK_VER/KawkabMono-Regular.ttf
 RESULT_FONT=JetBrains-Mono-Kawkab-Regular.ttf
 
-fontforge -lang=ff -script merge.ff "$FONT1" "$FONT2" "$FONT_NAME" "$FONT_FAMILY" "$FONT_FULLNAME" "$FONT_WEIGHT" "$FONT_COPYRIGHT" "$RESULT_FONT"
+fontforge -lang=ff -script merge.ff "$FONT1" "$FONT2" "$BASE_SCALE" "$FONT_NAME" "$FONT_FAMILY" "$FONT_FULLNAME" "$FONT_WEIGHT" "$FONT_COPYRIGHT" "$RESULT_FONT"
 
 
 # JetBrains Mono + Vazir Code
@@ -62,7 +63,7 @@ FONT1=jb/fonts/ttf/JetBrainsMono-Regular.ttf
 FONT2=vz/Without-Latin/Vazir-Code-WOL.ttf
 RESULT_FONT=JetBrains-Mono-Vazir-Regular.ttf
 
-fontforge -lang=ff -script merge.ff "$FONT1" "$FONT2" "$FONT_NAME" "$FONT_FAMILY" "$FONT_FULLNAME" "$FONT_WEIGHT" "$FONT_COPYRIGHT" "$RESULT_FONT"
+fontforge -lang=ff -script merge.ff "$FONT1" "$FONT2" "$BASE_SCALE" "$FONT_NAME" "$FONT_FAMILY" "$FONT_FULLNAME" "$FONT_WEIGHT" "$FONT_COPYRIGHT" "$RESULT_FONT"
 
 # Fira Code + Kawkab Mono
 FONT_NAME="FiraCode-Kawkab-Regular"
@@ -75,7 +76,7 @@ FONT1=fr/ttf/FiraCode-Regular.ttf
 FONT2=kk/kawkab-mono-$KK_VER/KawkabMono-Regular.ttf
 RESULT_FONT=FiraCode-Kawkab-Regular.ttf
 
-fontforge -lang=ff -script merge.ff "$FONT1" "$FONT2" "$FONT_NAME" "$FONT_FAMILY" "$FONT_FULLNAME" "$FONT_WEIGHT" "$FONT_COPYRIGHT" "$RESULT_FONT"
+fontforge -lang=ff -script merge.ff "$FONT1" "$FONT2" "$BASE_SCALE" "$FONT_NAME" "$FONT_FAMILY" "$FONT_FULLNAME" "$FONT_WEIGHT" "$FONT_COPYRIGHT" "$RESULT_FONT"
 
 # Fira Code + Vazir Code
 FONT_NAME="FiraCode-Vazir-Regular"
@@ -88,7 +89,7 @@ FONT1=fr/ttf/FiraCode-Regular.ttf
 FONT2=vz/Without-Latin/Vazir-Code-WOL.ttf
 RESULT_FONT=FiraCode-Vazir-Regular.ttf
 
-fontforge -lang=ff -script merge.ff "$FONT1" "$FONT2" "$FONT_NAME" "$FONT_FAMILY" "$FONT_FULLNAME" "$FONT_WEIGHT" "$FONT_COPYRIGHT" "$RESULT_FONT"
+fontforge -lang=ff -script merge.ff "$FONT1" "$FONT2" "$BASE_SCALE" "$FONT_NAME" "$FONT_FAMILY" "$FONT_FULLNAME" "$FONT_WEIGHT" "$FONT_COPYRIGHT" "$RESULT_FONT"
 
 
 # Archive fonts
