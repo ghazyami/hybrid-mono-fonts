@@ -1,7 +1,18 @@
 #!/usr/bin/fontforge
 
 Open($1)
-MergeFonts($2)
-SetFontNames($3, $4, $5, $6, $7)
-Generate($8)
+SelectAll()
+ScaleToEm(Strtol($3))
+Generate($1.tmp)
+Close()
+
+Open($2)
+SelectAll()
+ScaleToEm(Strtol($3))
+Generate($2.tmp)
+
+Open($1.tmp)
+MergeFonts($2.tmp)
+SetFontNames($4, $5, $6, $7, $8)
+Generate($9)
 Close()
